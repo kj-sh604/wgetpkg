@@ -1,20 +1,16 @@
-# wgetpkg
-
-Download AUR pkgs with `wget`. Fetches tarball snapshot.
-
+# wgetpkg (kinda revived and re-maintained)
+Download AUR packages with `wget` (fetches tarball snapshot).
 
 ## Usage
-
 ```sh
-$ git clone https://github.com/atweiden/wgetpkg && cd wgetpkg
+$ git clone https://github.com/kj-sh604/wgetpkg && cd wgetpkg
 $ ./wgetpkg \
-    perl6-debugger-ui-commandline \
-    perl6-terminal-ansicolor \
-    perl6-grammar-debugger
+    libva-nvidia-driver \
+    awesome-git \
+    picom-git \
+    coreutils-hybrid
 ```
 
-
 ## Licensing
-
 This is free and unencumbered public domain software. For more
 information, see http://unlicense.org/ or the accompanying UNLICENSE file.
